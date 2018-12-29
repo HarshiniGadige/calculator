@@ -1,0 +1,71 @@
+body {
+    overflow: hidden;
+    background: url('calculator.jpg');
+    background-size: 100%;
+}
+
+.banner {
+    margin: 60px auto;
+    text-align: center;
+    font-size: 22px;
+    animation: banner 25s infinite linear;
+    width: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+}
+
+@keyframes banner{
+    0% {
+        margin-left: 1250px;
+    }
+    100% {
+        margin-left: -750px;
+    }
+}
+
+.calculator-body {
+    margin: 40px auto;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(23, 45, 67, 0.5);
+    border: 1px solid #333;
+}
+
+.display {
+    margin: 10px;
+    height: 80px;
+}
+
+#cursor {
+    width: 98.9%;
+    height: 100%;
+    font-size: 3em;
+    text-align: right;
+    background-color: rgba(23, 45, 67, 0.5);
+    border-radius: 5px;
+}
+
+.buttonGroup {
+    margin: 10px;
+}
+
+button {
+    margin: 2px;
+    width: 48px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button.bigWidth {
+    width: 104px;
+}
+
+button.bigLength {
+    height: 84px;
+    float: right;
+    margin-right: 6px;
+}
+
+.buttonArray {
+    display: inline-block;
+}
